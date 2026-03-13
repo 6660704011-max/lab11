@@ -1,0 +1,40 @@
+{
+"expo": {
+"name": "my-expo-app",
+"slug": "my-expo-app",
+"version": "1.0.0",
+"orientation": "portrait",
+"icon": "./assets/icon.png",
+"userInterfaceStyle": "light",
+"newArchEnabled": true,
+"splash": {
+"image": "./assets/splash-icon.png",
+"resizeMode": "contain",
+"backgroundColor": "#ffffff"
+},
+"ios": {
+"supportsTablet": true,
+"bundleIdentifier": "com.pnu.usersystem",
+"config": {
+"usesNonExemptEncryption": false
+},
+"infoPlist": {
+"NSCameraUsageDescription": "This app uses the camera to take profilephotos.","NSPhotoLibraryUsageDescription": "This app accesses your photos to letyou choose a profile picture."
+}
+},
+"android": {
+"package": "com.pnu.usersystem",
+"versionCode": 1,
+"permissions": [
+
+"CAMERA",
+"READ_EXTERNAL_STORAGE",
+"WRITE_EXTERNAL_STORAGE"
+],
+"edgeToEdgeEnabled": true
+},
+"web": {
+"favicon": "./assets/favicon.png"
+}
+}
+}
